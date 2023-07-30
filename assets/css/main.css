@@ -3345,6 +3345,8 @@ button:disabled,
 
 .wrapper.style4 {
   background-color: rgba(29, 36, 42, 0.9);
+  padding-bottom:15px;
+  
 }
 
 .wrapper.style5 {
@@ -4091,11 +4093,13 @@ body.is-mobile #main > header {
   padding: 0 0 4em 0;
   background-color: #1d242a;
   text-align: center;
+  
 
 }
 
 #footer .icons {
-  font-size: 1.25em;
+  font-size: 1.7em;
+ 
 }
 
 #footer .icons a {
@@ -4135,6 +4139,14 @@ body.is-mobile #main > header {
 
 #footer .copyright li a:hover {
   color: #fff;
+}
+
+#footer p{
+  margin-bottom: 17px;
+  color: rgba(255, 255, 255, 0.5);
+ margin-top: 0;
+ font-size: 14px;
+  
 }
 
 @media screen and (max-width: 480px) {
