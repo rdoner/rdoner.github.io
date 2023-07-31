@@ -3939,7 +3939,7 @@ body.is-menu-visible #menu {
   }
 
  #banner .more{
-  bottom: 1.5rem;
+  bottom: 1rem;
  }
 
 
@@ -4195,6 +4195,11 @@ body.is-mobile #main > header {
   #footer {
     padding: 3em 2em 1em 2em;
     margin-top: -5rem;
+  }
+
+ .wrapper.style4{
+    padding: 0;
+    /* border: 1px solid red ; */
   }
 }
 
