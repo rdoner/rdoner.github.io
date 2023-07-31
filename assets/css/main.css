@@ -3908,23 +3908,35 @@ body.is-menu-visible #menu {
 
 @media screen and (max-width: 736px) {
   #banner {
-    padding: 7em 3em 5em 3em;
+    padding: 7em 5em 5em 0;
+    /* border: 1px solid red; */
     /* height: auto;
     min-height: 0; */
     height: 100vh;
   }
 
+
   #banner h2 {
-    font-size: 1.25em;
+    font-size: 1.1em;
+  }
+
+  #banner p{
+    font-size: 12px;
   }
 
   #banner br {
     display: none;
   }
 
-  #banner .more {
+  #banner .inner {
     /* display: none; */
+    /* border: 1px solid green; */
+    width: 70%;
+    left: 0;
+    right: 0;
   }
+
+
 
     #banner .primary {
       width: 9rem;
@@ -4240,7 +4252,7 @@ body.is-mobile.landing #banner {
     url("../../images/banner.jpg");
   background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../../images/banner.jpg");
-  background-position: center right 25%;
+  background-position: center right 16%;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgba(29, 36, 42, 0.9);
