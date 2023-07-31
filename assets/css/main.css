@@ -3853,7 +3853,7 @@ body.is-menu-visible #menu {
   -ms-transform: translateY(0);
   transform: translateY(0);
   border: none;
-  bottom: 0;
+  bottom: 1rem;
   color: inherit;
   font-size: 0.8em;
   height: 8.5em;
@@ -3910,8 +3910,8 @@ body.is-menu-visible #menu {
   #banner {
     padding: 7em 5em 5em 0;
     /* border: 1px solid red; */
-    /* height: auto;
-    min-height: 0; */
+    /* height: auto; */
+    min-height: 0;
     height: 100vh;
   }
 
@@ -3922,6 +3922,7 @@ body.is-menu-visible #menu {
 
   #banner p{
     font-size: 12px;
+    margin-bottom: 10px;
   }
 
   #banner br {
@@ -3931,13 +3932,14 @@ body.is-menu-visible #menu {
   #banner .inner {
     /* display: none; */
     /* border: 1px solid green; */
-    width: 70%;
+    width: 65%;
     left: 0;
     right: 0;
   }
 
-
-
+ /* #banner .scrolly{
+  padding-bottom: 0;
+ } */
     #banner .primary {
       width: 9rem;
       padding-left: 1px;
