@@ -2973,7 +2973,7 @@ button:disabled,
 
 @media screen and (max-width: 736px) {
   .spotlight .content {
-    padding: 3em 2em 1em 2em;
+    padding: 0em 2em 2em 2em;
   }
 }
 
