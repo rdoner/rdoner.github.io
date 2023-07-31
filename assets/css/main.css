@@ -3909,8 +3909,9 @@ body.is-menu-visible #menu {
 @media screen and (max-width: 736px) {
   #banner {
     padding: 7em 3em 5em 3em;
-    height: auto;
-    min-height: 0;
+    /* height: auto;
+    min-height: 0; */
+    height: 100vh;
   }
 
   #banner h2 {
@@ -3922,8 +3923,14 @@ body.is-menu-visible #menu {
   }
 
   #banner .more {
-    display: none;
+    /* display: none; */
   }
+
+    #banner .primary {
+      width: 9rem;
+      padding-left: 1px;
+      padding-right: 1px;
+    }
 }
 
 body.is-preload #banner h2 {
@@ -4233,15 +4240,15 @@ body.is-mobile.landing #banner {
     url("../../images/banner.jpg");
   background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../../images/banner.jpg");
-  background-position: center center;
+  background-position: center right 25%;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgba(29, 36, 42, 0.9);
 }
 
-body.is-mobile.landing #banner .inner {
+/* body.is-mobile.landing #banner .inner {
   padding-right: 12rem;
-}
+} */
 
 body.is-mobile.landing .wrapper.style4 .half {
   /* background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
