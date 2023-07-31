@@ -3939,7 +3939,7 @@ body.is-menu-visible #menu {
   }
 
  #banner .more{
-  bottom: 1rem;
+  bottom: 2.5rem;
  }
 
 
@@ -4198,9 +4198,15 @@ body.is-mobile #main > header {
   }
 
  .wrapper.style4{
-    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
     /* border: 1px solid red ; */
   }
+
+.content h5{
+  color: #a3a9fd;
+  text-decoration:none;
+}
 }
 
 /* Landing */
