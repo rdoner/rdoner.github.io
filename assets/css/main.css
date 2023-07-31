@@ -3853,7 +3853,7 @@ body.is-menu-visible #menu {
   -ms-transform: translateY(0);
   transform: translateY(0);
   border: none;
-  bottom: 1rem;
+  bottom: 0;
   color: inherit;
   font-size: 0.8em;
   height: 8.5em;
@@ -3906,6 +3906,7 @@ body.is-menu-visible #menu {
   opacity: 0;
 }
 
+
 @media screen and (max-width: 736px) {
   #banner {
     padding: 7em 5em 5em 0;
@@ -3937,9 +3938,11 @@ body.is-menu-visible #menu {
     right: 0;
   }
 
- /* #banner .scrolly{
-  padding-bottom: 0;
- } */
+ #banner .more{
+  bottom: 1.5rem;
+ }
+
+
     #banner .primary {
       width: 9rem;
       padding-left: 1px;
