@@ -386,8 +386,31 @@ h2 {
   h2 {
     font-size: 1.1em;
     line-height: 1.65em;
+   
   }
+
+ .style2 header h2{
+  /* border: 1px solid red; */
+  padding-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  height: 5rem;
+ }
+
+header.major  {
+  /* border: 2px solid red; */
+  /* padding-bottom: 0;
+  margin-bottom: 0; */
+
+ }
+
+#three li{
+  /* border: 2px solid yellow; */
+  padding-top: 0;
 }
+}
+
+
 
 h3 {
   font-size: 1.15em;
@@ -1964,6 +1987,12 @@ header h6 + p {
 
 header.major {
   margin: 0 0 3.5em 0;
+
+}
+
+#three header.major{
+  /* border: 2px solid yellow; */
+  margin-bottom: 1.5rem;
 }
 
 header.major h2,
@@ -2751,7 +2780,7 @@ button:disabled,
   text-align: center;
   width: 100%;
   flex-direction: row;
-  gap: 5rem;
+  gap:5rem;
   flex-wrap: wrap;
   justify-content: center;
 }
