@@ -32,7 +32,7 @@
 }
 
 .spotlight h5 {
-color: #2fe3d4;
+  color: #2fe3d4;
 }
 
 .style2 header h2 {
@@ -386,31 +386,27 @@ h2 {
   h2 {
     font-size: 1.1em;
     line-height: 1.65em;
-   
   }
 
- .style2 header h2{
-  /* border: 1px solid red; */
-  padding-top: 0;
-  margin-bottom: 0;
-  padding-bottom: 0;
-  height: 5rem;
- }
+  .style2 header h2 {
+    /* border: 1px solid red; */
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    height: 5rem;
+  }
 
-header.major  {
-  /* border: 2px solid red; */
-  /* padding-bottom: 0;
+  header.major {
+    /* border: 2px solid red; */
+    /* padding-bottom: 0;
   margin-bottom: 0; */
+  }
 
- }
-
-#three li{
-  /* border: 2px solid yellow; */
-  padding-top: 0;
+  #three li {
+    /* border: 2px solid yellow; */
+    padding-top: 0;
+  }
 }
-}
-
-
 
 h3 {
   font-size: 1.15em;
@@ -1987,10 +1983,9 @@ header h6 + p {
 
 header.major {
   margin: 0 0 3.5em 0;
-
 }
 
-#three header.major{
+#three header.major {
   /* border: 2px solid yellow; */
   margin-bottom: 1.5rem;
 }
@@ -2780,7 +2775,7 @@ button:disabled,
   text-align: center;
   width: 100%;
   flex-direction: row;
-  gap:5rem;
+  gap: 5rem;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -3377,8 +3372,7 @@ button:disabled,
 
 .wrapper.style4 {
   background-color: rgba(29, 36, 42, 0.9);
-  padding-bottom:15px;
-  
+  padding-bottom: 15px;
 }
 
 .wrapper.style5 {
@@ -3938,7 +3932,6 @@ body.is-menu-visible #menu {
   opacity: 0;
 }
 
-
 @media screen and (max-width: 736px) {
   #banner {
     padding: 7em 5em 5em 0;
@@ -3948,12 +3941,11 @@ body.is-menu-visible #menu {
     height: 100vh;
   }
 
-
   #banner h2 {
     font-size: 1.1em;
   }
 
-  #banner p{
+  #banner p {
     font-size: 12px;
     margin-bottom: 10px;
   }
@@ -3970,16 +3962,15 @@ body.is-menu-visible #menu {
     right: 0;
   }
 
- #banner .more{
-  bottom: 2.5rem;
- }
+  #banner .more {
+    bottom: 2.5rem;
+  }
 
-
-    #banner .primary {
-      width: 9rem;
-      padding-left: 1px;
-      padding-right: 1px;
-    }
+  #banner .primary {
+    width: 9rem;
+    padding-left: 1px;
+    padding-right: 1px;
+  }
 }
 
 body.is-preload #banner h2 {
@@ -4067,6 +4058,7 @@ body.is-preload #banner:after {
 
 #main > header {
   padding: 12em 0 10em 0;
+  transform: scaleX(-1);
   background-image: -moz-linear-gradient(
       top,
       rgba(0, 0, 0, 0.5),
@@ -4078,15 +4070,15 @@ body.is-preload #banner:after {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("../../images/banner.jpg");
+    url("../../images/flatironWide.jpeg");
   background-image: -ms-linear-gradient(
       top,
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("../../images/banner.jpg");
+    url("../../images/flatironWide.jpeg");
   background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../../images/banner.jpg");
+    url("../../images/flatironWide.jpeg");
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
@@ -4149,13 +4141,10 @@ body.is-mobile #main > header {
   padding: 0 0 4em 0;
   background-color: #1d242a;
   text-align: center;
-  
-
 }
 
 #footer .icons {
   font-size: 1.7em;
- 
 }
 
 #footer .icons a {
@@ -4197,12 +4186,11 @@ body.is-mobile #main > header {
   color: #fff;
 }
 
-#footer p{
+#footer p {
   margin-bottom: 17px;
   color: rgba(255, 255, 255, 0.5);
- margin-top: 0;
- font-size: 14px;
-  
+  margin-top: 0;
+  font-size: 14px;
 }
 
 @media screen and (max-width: 480px) {
@@ -4212,7 +4200,6 @@ body.is-mobile #main > header {
     line-height: 1.65em;
     margin: 0;
     padding: 0.5em 0;
-
   }
 }
 
@@ -4229,17 +4216,17 @@ body.is-mobile #main > header {
     margin-top: -5rem;
   }
 
- .wrapper.style4{
+  .wrapper.style4 {
     padding-left: 0;
     padding-right: 0;
     /* border: 1px solid red ; */
   }
 
-.content h5{
-  color: #2fe3d4;
-  padding-bottom: 1rem;
-text-decoration: none;
-}
+  .content h5 {
+    color: #2fe3d4;
+    padding-bottom: 1rem;
+    text-decoration: none;
+  }
 }
 
 /* Landing */
@@ -4250,21 +4237,21 @@ body.landing #page-wrapper {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("../../images/banner.jpg");
+    url("../../images/flatironWide.jpeg");
   background-image: -webkit-linear-gradient(
       top,
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("../../images/banner.jpg");
+    url("../../images/flatironWide.jpeg");
   background-image: -ms-linear-gradient(
       top,
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("../../images/banner.jpg");
+    url("../../images/flatironWide.jpeg");
   background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../../images/banner.jpg");
+    url("../../images/flatironWide.jpeg");
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
@@ -4286,21 +4273,21 @@ body.is-mobile.landing #banner {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("../../images/banner.jpg");
+    url("../../images/flatironWide.jpeg");
   background-image: -webkit-linear-gradient(
       top,
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("../../images/banner.jpg");
+    url("../../images/flatironWide.jpeg");
   background-image: -ms-linear-gradient(
       top,
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("../../images/banner.jpg");
+    url("../../images/flatironWide.jpeg");
   background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../../images/banner.jpg");
+    url("../../images/flatironWide.jpeg");
   background-position: center right 16%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4312,10 +4299,10 @@ body.is-mobile.landing #banner {
 } */
 
 body.is-mobile.landing .wrapper.style4 .half {
-  /* background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
-						background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
-						background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
-						background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg"); */
+  /* background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/flatironWide.jpeg");
+						background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/flatironWide.jpeg");
+						background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/flatironWide.jpeg");
+						background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/flatironWide.jpeg"); */
   /* background-position: center center;
 						background-repeat: no-repeat;
 						background-size: cover; */
@@ -4332,40 +4319,35 @@ body.is-mobile.landing .wrapper.style4 .field #name,
   width: 100%;
 }
 
-body.is-mobile.landing .wrapper.style4 form{
-	/* border: 2px solid yellow; */
-	width: auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-
+body.is-mobile.landing .wrapper.style4 form {
+  /* border: 2px solid yellow; */
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 body.is-mobile.landing #footer {
   background-color: #1d242a;
 }
 
-body.is-mobile.landing .wrapper.style4 .field{
-	width: 100%;
-	
+body.is-mobile.landing .wrapper.style4 .field {
+  width: 100%;
 }
 
-
-
-body.is-mobile.landing .wrapper.style4 .fields{
-	/* border: 2px solid blue; */
-	width: 100%;
+body.is-mobile.landing .wrapper.style4 .fields {
+  /* border: 2px solid blue; */
+  width: 100%;
 }
 
-body.is-mobile.landing .wrapper.style3 .features img{
+body.is-mobile.landing .wrapper.style3 .features img {
   /* border: 2px solid red ; */
   width: 4.5rem;
   height: 4.5rem;
-
 }
 
-body.is-mobile.landing .wrapper.style3 .features li{
+body.is-mobile.landing .wrapper.style3 .features li {
   /* border: 2px solid green; */
   display: flex;
   gap: 1.7rem;
